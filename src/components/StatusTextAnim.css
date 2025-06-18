@@ -1,0 +1,27 @@
+@keyframes move-status-bg {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.status-animated-urgent {
+  background-image: linear-gradient(to right, #ef4444, #f97316, #ef4444);
+  background-size: 200% auto; 
+  animation: move-status-bg 3s linear infinite;
+}
+
+.status-animated-warning {
+  background-image: linear-gradient(to right, #e7e5e4, #d6d3d1, #e7e5e4); /* stone-200, stone-300 */
+  background-size: 200% auto;
+  animation: move-status-bg 5s linear infinite;
+}
+
+
+.status-animated-ok {
+  background-image: linear-gradient(to right, #2dd4bf, #22c55e, #14b8a6);
+  background-size: 200% auto;
+  animation: move-status-bg 8s linear infinite;
+}

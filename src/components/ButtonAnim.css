@@ -1,0 +1,40 @@
+
+.animated-action-button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 9999px; /* Matchning for tailwind round-full tydligen */
+  z-index: -1;
+  transition: background 0.5s ease;
+}
+
+
+.animated-action-button::after {
+  content: "";
+  position: absolute;
+  inset: -5px; /
+  border-radius: 9999px; 
+  z-index: -2;
+  filter: blur(15px);
+  transition: opacity 0.3s ease;
+  opacity: 0;
+}
+
+/* --- GRADIENTER --- */
+
+.animated-action-button:not(:disabled)::before {
+  background: linear-gradient(45deg, #f97316, #fb923c);
+}
+.animated-action-button:not(:disabled)::after {
+  background: linear-gradient(45deg, #f97316, #fb923c);
+}
+.animated-action-button:hover:not(:disabled)::after {
+  opacity: 0.7;
+}
+.animated-action-button:disabled::before {
+  background: linear-gradient(45deg, #4b5563, #6b7280);
+}
+.animated-action-button:disabled::after {
+  background: linear-gradient(45deg, #4b5563, #6b7280);
+  opacity: 0.4;
+}
