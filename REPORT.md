@@ -71,8 +71,8 @@ Ha roligt, skratta och lär er massor!
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-CJVIK\src\models\InterfaceAnimal.ts - no-console - Unexpected console statement.
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-CJVIK\src\utility\localStorageUtils.ts - no-console - Unexpected console statement.,no-console - Unexpected console statement.
 
-## 🏆 **Betyg: VG**
-📌 **Motivering:** Koden uppfyller alla krav för både G och VG. Applikationen använder en router för navigering mellan sidorna och har en layout med child-routes och error-element hanterade korrekt. Djuren kan matas på detaljsidan, och tiderna för matning uppfyller kraven. Trasiga bild-länkar hanteras korrekt, och styling är genomförd med Tailwind CSS. För VG, hämtas data med en custom hook och context används för att kommunicera mellan komponenter. Reducers hanterar djurens state, och matningsstatus nollställs korrekt. Djuren presenteras med subtila animationer vilket förbättrar användarupplevelsen.
+## 🏆 **Betyg: IG**
+📌 **Motivering:** Specifika implementationer för router och användning av context, reducers och custom hooks saknades i granskad data. Även viktig funktionalitet som hantering av bildlänkar och mata-funktionaliteten kunde inte verifieras från de filer som analyserades.
 
 💡 **Förbättringsförslag:**  
-Inga större förbättringar behövs.
+Kontrollera implementation av router, custom hooks, context och reducers; verifiera att trasiga bildlänkar och mata-funktionaliteten hanteras korrekt i koden.
