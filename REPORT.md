@@ -66,11 +66,11 @@ Välj en teknik gällande css som ni antingen vill lära er mer om eller som ni 
 Ha roligt, skratta och lär er massor!
 
 ## 🔍 ESLint-varningar:
-- C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-CJVIK\src\models\InterfaceAnimal.ts - no-console - Unexpected console statement.
-- C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-CJVIK\src\utility\localStorageUtils.ts - no-console - Unexpected console statement.,no-console - Unexpected console statement.
+- /app/repos/fed24s-the-zoo-CJVIK/src/models/InterfaceAnimal.ts - no-console - Unexpected console statement.
+- /app/repos/fed24s-the-zoo-CJVIK/src/utility/localStorageUtils.ts - no-console - Unexpected console statement.,no-console - Unexpected console statement.
 
 ## 🏆 **Betyg: G**
-📌 **Motivering:** Projektet uppfyller alla grundläggande krav för betyget G. Koden är generellt välstrukturerad och funktionaliteten är implementerad enligt uppgiftens specifikationer. Det finns dock utrymme för förbättringar, särskilt för att uppnå betyget VG. För att nå VG-nivå behöver studenten implementera mer avancerade tekniker som context API och reducers för state management samt subtila animeringar.
+📌 **Motivering:** Projektet uppfyller alla grundläggande krav för betyget G, inklusive användning av en router för att visa olika sidor, korrekt hantering av trasiga bildlänkar, och användning av en annan teknik än ren CSS för styling. Kodstrukturen är logisk och följer etablerade konventioner. Dock saknas flera av de mer avancerade kraven för betyget VG, såsom användning av context, reducers och subtila animeringar.
 
 💡 **Förbättringsförslag:**  
-För att nå VG-nivå bör studenten implementera context API för komponentkommunikation istället för props, använda reducers för state management, och inkludera subtila animeringar vid interaktioner. Dessutom kan kodkvaliteten förbättras genom att minska kodupprepning och förbättra felhanteringen. Exempelvis kan återkommande logik extraheras till separata funktioner eller hooks, och mer detaljerade felmeddelanden kan implementeras för bättre felhantering.
+För att nå VG bör studenten implementera datahämtning med tjänster eller en custom hook, använda context för komponentkommunikation, och använda reducers för djurhantering. Dessutom bör subtila animeringar läggas till vid knapptryckningar och sidladdningar. Error handling kan förbättras genom att lägga till mer robust hantering av API-fel och nätverksproblem. Lägg till fler kommentarer för att underlätta för framtida utvecklare att förstå koden.
