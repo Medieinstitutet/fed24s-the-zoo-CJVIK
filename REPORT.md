@@ -70,7 +70,7 @@ Ha roligt, skratta och lär er massor!
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-CJVIK\src\utility\localStorageUtils.ts - no-console - Unexpected console statement.,no-console - Unexpected console statement.
 
 ## 🏆 **Betyg: G**
-📌 **Motivering:** Koden uppfyller alla grundläggande krav för betyg G, inklusive användning av router, hantering av djurens matningsstatus och korrekt hantering av trasiga bildlänkar. Kodstrukturen är logisk och följer etablerade konventioner, men det finns utrymme för förbättringar, särskilt inom felhantering och prestandaoptimering. För att uppnå VG-nivå krävs ytterligare arbete med state management och användning av context API och reducers.
+📌 **Motivering:** Projektet uppfyller alla grundläggande krav för betyget G. Koden är generellt välstrukturerad och funktionaliteten är implementerad enligt uppgiftens specifikationer. Det finns dock utrymme för förbättringar, särskilt för att uppnå betyget VG. För att nå VG-nivå behöver studenten implementera mer avancerade tekniker som context API och reducers för state management samt subtila animeringar.
 
 💡 **Förbättringsförslag:**  
-För att förbättra och nå VG-nivå kan studenten implementera context API och reducers för effektivare state management, förbättra felhanteringen med mer detaljerade felmeddelanden, optimera prestandan genom att använda lazy loading och minska kodupprepningar, samt lägga till subtila animeringar för en bättre användarupplevelse.
+För att nå VG-nivå bör studenten implementera context API för komponentkommunikation istället för props, använda reducers för state management, och inkludera subtila animeringar vid interaktioner. Dessutom kan kodkvaliteten förbättras genom att minska kodupprepning och förbättra felhanteringen. Exempelvis kan återkommande logik extraheras till separata funktioner eller hooks, och mer detaljerade felmeddelanden kan implementeras för bättre felhantering.
