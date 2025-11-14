@@ -1,7 +1,6 @@
 # 📌 Rättningsrapport – fed24s-the-zoo-CJVIK
 
 ## 🎯 Uppgiftens Krav:
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/xBUCHFwF)
 # The Zoo
 
 I denna inlämningsuppgift kommer ni att bygga ett zoo. Zoo:t har ett antal djur som kommer behöva matas. 
@@ -66,13 +65,12 @@ Välj en teknik gällande css som ni antingen vill lära er mer om eller som ni 
 
 Ha roligt, skratta och lär er massor!
 
-
 ## 🔍 ESLint-varningar:
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-CJVIK\src\models\InterfaceAnimal.ts - no-console - Unexpected console statement.
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-CJVIK\src\utility\localStorageUtils.ts - no-console - Unexpected console statement.,no-console - Unexpected console statement.
 
-## 🏆 **Betyg: IG**
-📌 **Motivering:** Tekniskt fel vid AI-analys. Kontrollera manuellt.
+## 🏆 **Betyg: G**
+📌 **Motivering:** Projektet uppfyller de grundläggande kraven för betyg G. Koden är organiserad och följer konventioner, men det finns utrymme för förbättringar i kodkvalitet och funktionalitet. Felhantering är implementerad, men kan förbättras. För att nå VG-nivå krävs användning av context och reducers för state management, samt subtila animeringar för en förbättrad användarupplevelse.
 
 💡 **Förbättringsförslag:**  
-Automatisk rättning med AI-assistant misslyckades. Vänligen kontrollera koden manuellt.
+1. Förbättra kodens läsbarhet genom att lägga till fler kommentarer där logiken är komplex. 2. Använd mer konsekventa naming conventions för variabler och funktioner. 3. Implementera DRY-principen bättre genom att identifiera och extrahera upprepad kod till återanvändbara funktioner eller komponenter. 4. Förbättra error handling genom att implementera mer robusta lösningar för att hantera API-fel och trasiga bildlänkar. 5. För att nå VG-nivå, överväg att använda context och reducers för state management, samt implementera subtila animeringar för en bättre användarupplevelse.
